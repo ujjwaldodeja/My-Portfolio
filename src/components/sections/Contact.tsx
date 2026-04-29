@@ -3,7 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { Mail, MapPin, Send } from "lucide-react";
-import { GithubIcon, LinkedinIcon } from "@/components/Icons";
+import { LinkedinIcon } from "@/components/Icons";
 
 export default function Contact() {
   const ref = useRef(null);
@@ -57,15 +57,6 @@ export default function Contact() {
             </div>
 
             <div className="flex gap-3 pt-1">
-              <a
-                href="https://github.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="GitHub"
-                className="text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors"
-              >
-                <GithubIcon size={18} />
-              </a>
               <a
                 href="https://www.linkedin.com/in/ujjwal-dodeja-aba2b0261"
                 target="_blank"

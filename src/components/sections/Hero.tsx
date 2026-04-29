@@ -2,10 +2,9 @@
 
 import { motion } from "framer-motion";
 import { ArrowDown, Mail } from "lucide-react";
-import { GithubIcon, LinkedinIcon } from "@/components/Icons";
+import { LinkedinIcon } from "@/components/Icons";
 
 const socials = [
-  { icon: GithubIcon, href: "https://github.com/", label: "GitHub" },
   { icon: LinkedinIcon, href: "https://www.linkedin.com/in/ujjwal-dodeja-aba2b0261", label: "LinkedIn" },
   { icon: Mail, href: "mailto:ujjwaldodeja@gmail.com", label: "Email" },
 ];

@@ -16,7 +16,6 @@ const projects = [
       "Enhanced document analysis and PDF processing workflows, improving efficiency by 20%.",
     ],
     tech: ["Java", "Quarkus", "Python", "Docker", "RabbitMQ", "Kubernetes"],
-    github: "",
     live: "",
   },
   {
@@ -30,7 +29,6 @@ const projects = [
       "Reduced inference latency by 25%, increased throughput by 20%, and eliminated memory/maintenance issues by 50%.",
     ],
     tech: ["Java", "Quarkus", "Python", "RabbitMQ", "Kubernetes"],
-    github: "",
     live: "",
   },
   {
@@ -43,7 +41,6 @@ const projects = [
       "Async, event-driven export pipeline significantly improved throughput and scalability.",
     ],
     tech: ["Java", "Quarkus", "REST APIs", "mTLS", "PostgreSQL", "Docker"],
-    github: "",
     live: "",
   },
   {
@@ -54,7 +51,6 @@ const projects = [
       "Optimised LSB substitution algorithm to implement enhanced image steganography.",
     ],
     tech: ["Android", "Java", "DHKeyExchange", "E2EE", "Steganography"],
-    github: "https://github.com/",
     live: "",
   },
   {
@@ -66,7 +62,6 @@ const projects = [
       "Built an Android app leveraging the built-in camera for continuous frame capture and local model inference.",
     ],
     tech: ["Python", "PyTorch", "TensorFlow", "Android", "PostureRecognition API"],
-    github: "https://github.com/",
     live: "",
   },
   {
@@ -77,7 +72,6 @@ const projects = [
       "Hand-written lexer, recursive-descent parser, and tree-walking interpreter.",
     ],
     tech: ["Haskell", "Compiler Design", "Parsing"],
-    github: "https://github.com/",
     live: "",
   },
   {
@@ -88,7 +82,6 @@ const projects = [
       "Eliminated hours of repetitive manual data-entry workflows.",
     ],
     tech: ["Python", "Pandas", "openpyxl", "Tkinter"],
-    github: "https://github.com/",
     live: "",
   },
 ];
