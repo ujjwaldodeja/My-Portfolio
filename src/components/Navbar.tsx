@@ -67,14 +67,6 @@ export default function Navbar() {
               {isDark ? <Sun size={16} /> : <Moon size={16} />}
             </button>
           )}
-          <a
-            href="/Ujjwal_Dodeja_Resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm border border-[var(--border-strong)] text-[var(--text-muted)] hover:text-[var(--text)] hover:border-[var(--accent)] px-4 py-1.5 rounded-full transition-colors duration-200"
-          >
-            Resume
-          </a>
         </div>
 
         <div className="md:hidden flex items-center gap-2">
@@ -117,16 +109,6 @@ export default function Navbar() {
                   </a>
                 </li>
               ))}
-              <li>
-                <a
-                  href="/Ujjwal_Dodeja_Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-[var(--accent)]"
-                >
-                  Resume
-                </a>
-              </li>
             </ul>
           </motion.div>
         )}

@@ -40,8 +40,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-xl font-medium text-[var(--text-muted)] mb-6"
         >
-          Software Developer & AI Engineer at{" "}
-          <span className="text-[var(--accent)]">eData</span>
+          Software Developer & AI Engineer
         </motion.h2>
 
         <motion.p
@@ -50,8 +49,9 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-[var(--text-muted)] leading-relaxed mb-10 max-w-lg"
         >
-          I build robust backend systems and AI pipelines. Passionate about
-          clean code, algorithmic problem-solving, and scalable architecture.
+          I love building things — from robust backend systems and AI pipelines
+          to the occasional interpreted language. Driven by curiosity, mathematics,
+          and a desire to solve hard problems in clean, well-structured ways.
         </motion.p>
 
         <motion.div
