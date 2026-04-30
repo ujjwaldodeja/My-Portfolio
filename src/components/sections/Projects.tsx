@@ -74,16 +74,6 @@ const projects = [
     tech: ["Haskell", "Compiler Design", "Parsing"],
     live: "",
   },
-  {
-    title: "Execel Automate",
-    association: "",
-    bullets: [
-      "Automation tool that transforms Excel spreadsheets using custom rule definitions.",
-      "Eliminated hours of repetitive manual data-entry workflows.",
-    ],
-    tech: ["Python", "Pandas", "openpyxl", "Tkinter"],
-    live: "",
-  },
 ];
 
 export default function Projects() {
